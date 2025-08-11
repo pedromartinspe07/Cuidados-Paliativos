@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Artigos científicos sobre Cuidados Paliativos - Doutorado de Patricia Maria de Oliveira Andrade Araújo">
+    <title>Artigos | Cuidados Paliativos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo Cuidados Paliativos">
+                <h1>Cuidados Paliativos</h1>
+            </div>
+            <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="artigos.html" class="active">Artigos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h2>Artigos Científicos</h2>
+                <p>Publicações e pesquisas sobre Cuidados Paliativos</p>
+            </div>
+        </section>
+
+        <section class="articles-section">
+            <div class="container">
+                <div class="articles-filter">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="pain">Manejo da Dor</button>
+                    <button class="filter-btn" data-filter="communication">Comunicação</button>
+                    <button class="filter-btn" data-filter="family">Família</button>
+                    <button class="filter-btn" data-filter="education">Formação</button>
+                </div>
+
+                <div class="articles-container">
+                    <!-- Artigos serão carregados via JavaScript -->
+                    <div class="loading">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Carregando artigos...</p>
+                    </div>
+                </div>
+
+                <div class="featured-article">
+                    <h3>Artigo em Destaque</h3>
+                    <div class="featured-card">
+                        <div class="featured-image">
+                            <img src="img/featured-article.jpg" alt="Artigo em destaque">
+                        </div>
+                        <div class="featured-content">
+                            <h4>Competências Essenciais para Enfermeiros em Cuidados Paliativos: Uma Revisão Integrativa</h4>
+                            <p class="meta">Publicado em: 15/07/2025 | Categoria: Formação</p>
+                            <p class="excerpt">Este artigo apresenta uma revisão integrativa da literatura sobre as competências essenciais para enfermeiros atuantes em cuidados paliativos, identificando cinco domínios principais: conhecimento técnico, habilidades de comunicação, manejo emocional, trabalho em equipe e abordagem holística.</p>
+                            <a href="#" class="btn">Ler Artigo Completo</a>
+                            <a href="#" class="btn btn-outline"><i class="fas fa-download"></i> Baixar PDF</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="research-repositories">
+                    <h3>Repositórios Científicos</h3>
+                    <p>Acesse também estes repositórios para mais artigos sobre cuidados paliativos:</p>
+                    <div class="repositories-list">
+                        <a href="https://www.scielo.br/" target="_blank" class="repository">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>SciELO - Scientific Electronic Library Online</span>
+                        </a>
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" class="repository">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>PubMed</span>
+                        </a>
+                        <a href="https://bvsalud.org/" target="_blank" class="repository">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>Biblioteca Virtual em Saúde</span>
+                        </a>
+                        <a href="https://www.cochranelibrary.com/" target="_blank" class="repository">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>Cochrane Library</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="artigos.html">Artigos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-envelope"></i> patricia.araujo@abreuelima.ifpe.edu.br</p>
+                    <p><i class="fas fa-phone"></i> (XX) XXXX-XXXX</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Cuidados Paliativos. Todos os direitos reservados.</p>
+                <p>Site desenvolvido por Patricia Maria de Oliveira Andrade Araújo como parte de seu projeto de Doutorado em Enfermagem.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
